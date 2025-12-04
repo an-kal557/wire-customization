@@ -35,10 +35,7 @@
             "enable_new_registration": true,
             "channels_history_options_enabled": true,
             "meetings_enabled": true,
-            "use_async_flush_logging": true,
-            "conversation_feeder_enabled": true,
-            "secure_public_link_settings": true,
-            "collabora_integration": true
+            "use_async_flush_logging" : true
         },
         "staging": {
             "application_id": "com.waz.zclient.dev",
@@ -72,8 +69,7 @@
             "analytics_app_key": "8ffae535f1836ed5f58fd5c8a11c00eca07c5438",
             "analytics_server_url": "https://wire.count.ly/",
             "enable_new_registration": true,
-            "use_async_flush_logging": true,
-            "secure_public_link_settings": true
+            "use_async_flush_logging" : true
         },
         "internal": {
             "application_id": "com.wire.internal",
@@ -86,11 +82,9 @@
             "analytics_server_url": "https://wire.count.ly/",
             "enable_new_registration": true,
             "use_strict_mls_filter": false,
-            "use_async_flush_logging": true,
-            "conversation_feeder_enabled": true,
+            "use_async_flush_logging" : true,
             "background_notification_retry_enabled": true,
-            "background_notification_stay_alive_seconds": 5,
-            "secure_public_link_settings": true
+            "background_notification_stay_alive_seconds": 5
         },
         "fdroid": {
             "application_id": "com.wire",
@@ -104,9 +98,9 @@
             "enable_new_registration": true
         }
     },
-    "application_name": "Wire - Sectra",
+    "application_name": "Wire",
     "allow_sso_authentication_option": true,
-    "url_support": "https://sectracommunications.zendesk.com/hc/en-us",
+    "url_support": "https://support.wire.com",
     "allow_account_creation": true,
     "max_accounts": 3,
     "enable_blacklist": true,
@@ -121,21 +115,21 @@
     "wipe_on_cookie_invalid": false,
     "wipe_on_device_removal": false,
     "wipe_on_rooted_device": false,
-    "websocket_enabled_by_default": true,
+    "websocket_enabled_by_default": false,
     "firebase_push_sender_id": "782078216207",
     "firebase_app_id": "1:782078216207:android:d3db2443512d2055",
     "google_api_key": "AIzaSyBXtNKuX6GCKv2jDtsFImUaxCRL21DTLEQ",
     "fcm_project_id": "w966768976",
     "report_bug_menu_item_enabled": true,
     "debug_screen_enabled": true,
-    "update_app_url": "https://testdownloadappurlforupdate.com",
+    "update_app_url": "https://wire.com/en/download/",
     "default_backend_url_base_api": "https://prod-nginz-https.wire.com",
     "default_backend_url_accounts": "https://account.wire.com",
     "default_backend_url_base_websocket": "https://prod-nginz-ssl.wire.com",
     "default_backend_url_teams": "https://teams.wire.com",
     "default_backend_url_blacklist": "https://clientblacklist.wire.com/prod",
     "default_backend_url_website": "https://wire.com",
-    "default_backend_title": "wire-sectra",
+    "default_backend_title": "wire-production",
     "cert_pinning_config": {
         "sha256/fnBeCwh0imI9t46Onid49IwvsB5vcf7RCvafRRdCyRE=": [
             "**.prod-nginz-https.wire.com",
@@ -153,7 +147,7 @@
     "paginated_conversation_list_enabled": true,
     "should_display_release_notes": true,
     "public_channels_enabled": false,
-    "use_async_flush_logging": false,
+    "use_async_flush_logging" : false,
     "channels_history_options_enabled": false,
     "use_new_login_for_default_backend": true,
     "enable_crossplatform_backup": true,
@@ -162,10 +156,7 @@
     "use_strict_mls_filter": false,
     "meetings_enabled": false,
     "emm_support_enabled": true,
-    "conversation_feeder_enabled": false,
     "background_notification_retry_enabled": false,
     "background_notification_stay_alive_seconds": 1,
-    "is_bubble_ui_enabled": true,
-    "secure_public_link_settings": false,
-    "collabora_integration": false
+    "is_bubble_ui_enabled": true
 }
