@@ -23,7 +23,7 @@
     <string name="url_support" translatable="false">https://chat.tiger</string>
     <string name="url_terms_of_use_legal" translatable="false">https://chat.tiger</string>
     <!-- Navigation -->
-    <string name="settings_wire_website_label">Tiger\/E MS Website</string>
+    <string name="settings_wire_website_label">Tiger\/E Managed Service Website</string>
     <string name="label_copyright_value" translatable="false">© Wire Swiss GmbH + Sectra</string>
     <!--Whats New -->
     <string name="whats_new_screen_title">What\'s new</string>
