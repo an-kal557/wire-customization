@@ -1,8 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Wire
+  ~ Copyright (C) 2024 Wire Swiss GmbH
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program. If not, see http://www.gnu.org/licenses/.
+  -->
 <resources>
-    <string name="content_description_welcome_wire_logo">Sectra</string>
-    <string name="settings_screen_title">Settings OMGJORD</string>
-    <string name="app_settings_screen_title">App Settings omgjord</string>
-    <string name="give_feedback_screen_title">Give Feedback hehefeedback</string>
-    <string name="report_bug_screen_title">Report Bug</string>
-    <string name="about_app_screen_title">About This App OM APPEN</string>
+    <!-- Content descriptions https://wearezeta.atlassian.net/wiki/spaces/AR/pages/122520039/Code+Style+Guideline#Content-description-strings -->
+    <string name="content_description_welcome_wire_logo">Wire + Sectra</string>
+    <!-- Wire Urls - Non translatable -->
+    <string name="url_wire_website" translatable="false">https://chat.tiger</string>
+    <string name="url_support" translatable="false">https://chat.tiger</string>
+    <string name="url_terms_of_use_legal" translatable="false">https://chat.tiger</string>
+    <!-- Navigation -->
+    <string name="settings_wire_website_label">Tiger\/E MS Website</string>
+    <string name="label_copyright_value" translatable="false">© Wire Swiss GmbH + Sectra</string>
+    <!--Whats New -->
+    <string name="whats_new_screen_title">What\'s new</string>
+    <string name="whats_new_welcome_to_new_android_app_label">👋 Welcome to Wire\'s + Sectra\'s New Android App!</string>
+    <!-- Welcome -->
+   
+    <string name="welcome_screen_carousel_item_message_1">Welcome to Tiger\/E MS, the most secure collaboration platform!</string>
+    <string name="welcome_screen_carousel_item_message_5">Tiger\/E MS is independently audited and ISO, CCPA, GDPR, SOX-compliant</string>
+    <string name="welcome_migration_dialog_content">We rebuilt the app to make it more usable for everyone.\n\nFind out more about Wire\'s redesigned app—new options in collaboration with Sectra and improved accessibility, with the same strong security.</string>
+    <string name="welcome_migration_dialog_continue">Start Using Tiger\/E MS</string>
+    <!-- Enterprise Login -->
+    <string name="enterprise_login_create_account_label">Don\'t have a Tiger\/E MS account?</string>
+    <string name="enterprise_login_on_prem_welcome_title">Welcome to Tiger\/E MS Enterprise for %s!</string>
+    <!-- Remove Device -->
+    <string name="remove_device_message">Remove one of your other devices to start using Tiger\/E MS on
+        this one.
+    </string>
+    <!-- Create Account -->
+    <string name="create_account_selector_title">How will you use Tiger\/E MS?</string>
+    <string name="create_personal_account_text">Securely chat with friends and family using Tiger\/E MS\'s on-premise server.</string>
+    <!-- Import/Export External Media -->
+    <string name="import_media_content_title">Share With Tiger\/E MS</string>
+    <string name="export_media_subject_title">Sharing Media from Tiger\/E MS</string>
+    <!-- System messages -->
+    <string name="label_system_message_conversation_started_sensitive_information_header">**Communication in Tiger/E MS is always end-to-end encrypted.**</string>
+    <string name="label_system_message_conversation_started_sensitive_information_header_with_cells_on">**Communication in Tiger/E MS is always secured.**</string>
+    <!-- Unread Events -->
+    <string name="label_public_wire">Tiger/E MS On-Premise</string>
+    <string name="label_search_people_instruction">Search for people by their profile name or @username</string>
+    <string name="label_learn_more_searching_user">Learn more</string>
+    <string name="label_no_results_found">No results could be found. Please try again.</string>
+    <string name="label_general_error">Something went wrong</string>
+    <string name="label_add_member_people">People</string>
+    <string name="label_add_member_services">Apps</string>
+    <string name="label_empty_contacts_list">Search for people by their name or username to start a conversation 🔍</string>
+    <!-- Snackbar messages -->
+    <string name="error_no_network_title">Waiting for VPN connection</string>
+    <string name="error_no_network_message">Please check your VPN connection and try again</string>
+    <!-- Notifications -->
+    <!-- Calling-->
+    <string name="calling_feature_unavailable_team_member_message_alert">To start a conference call, your team needs to upgrade to the Enterprise plan.</string>
+    <string name="calling_feature_unavailable_team_admin_message_link_alert">Learn more about Tiger\/E MS\'s pricing</string>
+    <string name="calling_feature_enabled_title_alert">Tiger\/E MS</string>
+    <string name="calling_feature_enabled_message_alert">Your team was upgraded to Tiger\/E MS, which gives you access to features such as conference calls and more.</string>
+    <string name="calling_feature_enabled_message_link_alert">Learn more about Tiger\/E MS</string>
+    <!-- Connectivity Status Bar -->
+    <string name="connectivity_status_bar_connecting">Decrypting messages</string>
+    <string name="connectivity_status_bar_waiting_for_network">Waiting for VPN connection</string>
+    <!--sso dialog-->
+    <string name="sso_error_dialog_title">Unable to log in with SSO</string>
+    <string name="sso_error_dialog_message">Please try again. If this does not help, contact the Tiger\/E MS support and provide this code:\n%d"
+    </string>
+    <!--max account reached dialog-->
+    <string name="custom_backend_dialog_title">Redirect to the Tiger\/E MS on-premises backend?</string>
+    <string name="custom_backend_error_no_internet_connection_body">Redirecting to the Tiger\/E MS on-premises backend was not possible, you don’t seem to be connected to the VPN.\n\nEstablish a VPN connection and try again.</string>
+    <string name="label_wait_until_connected">Please wait until the VPN connection is restored</string>
+    <!--    report bug-->
+    <string name="send_bug_report_email" translatable="false">support.communications@sectra.com</string>
 </resources>
