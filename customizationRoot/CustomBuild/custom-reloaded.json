@@ -1,7 +1,7 @@
 {
     "flavors": {
         "prod": {
-            "application_id": "com.wire",
+            "application_id": "com.sectra.wire",
             "developer_features_enabled": false,
             "logging_enabled": false,
             "application_is_private_build": false,
@@ -24,7 +24,7 @@
             "use_async_flush_logging" : true
         }
     },
-    "application_name": "Wire + Sectra",
+    "application_name": "Wire powered by Sectra",
     "allow_sso_authentication_option": true,
     "url_support": "https://chat.tiger",
     "allow_account_creation": true,
